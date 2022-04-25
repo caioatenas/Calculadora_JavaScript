@@ -14,8 +14,8 @@ class CalcController{
     initialize(){
 
 
-        dataEl.innerHTML = "01/01/2022";
-        timeEl.innerHTML = "00:00";
+        this._dataEl.innerHTML = "01/01/2022";
+        this._timeEl.innerHTML = "00:00";
     }
 
     get displayCalcEl(){
