@@ -7,7 +7,7 @@ class CalcController{
         this._timeEl = document.querySelector("#hora");
         this._displayCalcEl ="";
         this._currentDate;
-        this.initialize().;
+        this.initialize();
 
     }
 
@@ -20,6 +20,17 @@ class CalcController{
 
     get displayCalcEl(){
         return this._displayCalcEl;
+    }
+
+    set displayCalcEl(valor){
+        this._displayCalcEl = valor;
+    }
+    get currentDate(){
+        return this._currentDate;
+    }
+
+    set currentDate(valor){
+        this._currentDate = valor;
     }
 
 }
